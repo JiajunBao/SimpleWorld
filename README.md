@@ -1,8 +1,8 @@
 # SimpleWorld
 Simulate a simple world with a number of creatures running around and living togerther.
-# Overview
+## Overview
 The simple world program for this project simulates a number of creatures running around in a simple world. The world is an m-by-n two-dimensional grid of squares. Each creature lives in one of the squares, faces in one of the major compass directions (north, east, south, or west), and belongs to a particular species, which determines how that creature behaves. Each square also has a specific terrain type. Each creature may also have some special abilities, including flying and archery. 
-# Program Arguments
+## Program Arguments
 The expected order of arguments is: 
 
 ```[species-summary] [world-file] [rounds] [v|verbose] ```
@@ -15,7 +15,7 @@ Suppose that you program is called p3. It may be invoked by typing in a terminal
 
 Then your program should read the species summary from the file called “species” and the world file from the file called “world”. The number of simulation rounds is 10. Your program should print the simulation information verbosely.
 
-# Testing
+## Testing
 A sample test world file is avaliable. The result is also given in the file "world4sbwqp50v"
 To run this test case, type the following commands (Note: suppose the name of the compiled program is foo):
 
@@ -23,5 +23,5 @@ To run this test case, type the following commands (Note: suppose the name of th
 
 Then the output of your program is redirected to a file named world.out.
 
-# Reference
+## Reference
 Weikang Qian, Yue Yao, Shuyang Huang, Zhuangzhuang Zhou, "Project-3-Description", UM-SJTU Joint Institute, 2018.
