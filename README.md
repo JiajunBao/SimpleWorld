@@ -10,7 +10,8 @@ The expected order of arguments is:
 The first three arguments are mandatory. They give the name of the species summary file, the name of the world file, and the number of simulation rounds, respectively. The fourth argument is optional. If the fourth argument is the string “v” or the string “verbose”, your program should print the simulation result verbosely, which will be explained later. Otherwise, if it is omitted or is any other string, your program should print the result concisely, which will also be explained later. If there are more than four arguments, the remaining arguments are ignored.
 
 Suppose that you program is called p3. It may be invoked by typing in a terminal: 
-./p3 species world 10 v 
+
+```./p3 species world 10 v ```
 
 Then your program should read the species summary from the file called “species” and the world file from the file called “world”. The number of simulation rounds is 10. Your program should print the simulation information verbosely.
 
