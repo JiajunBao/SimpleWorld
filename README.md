@@ -22,3 +22,6 @@ To run this test case, type the following commands (Note: suppose the name of th
 ``` ./foo species sampleWorld 50 v > world.out ```
 
 Then the output of your program is redirected to a file named world.out.
+
+# Reference
+Weikang Qian, Yue Yao, Shuyang Huang, Zhuangzhuang Zhou, "Project-3-Description", UM-SJTU Joint Institute, 2018.
