@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jajuan/Codes/Project3/p3.cpp
+simulation.h
+/home/jajuan/Codes/Project3/simulation.h
+
+/home/jajuan/Codes/Project3/simulation.cpp
+simulation.h
+/home/jajuan/Codes/Project3/simulation.h
+
+/home/jajuan/Codes/Project3/simulation.h
+world_type.h
+/home/jajuan/Codes/Project3/world_type.h
+iostream
+-
+string
+-
+fstream
+-
+sstream
+-
+iomanip
+-
+cstdlib
+-
+cassert
+-
+
+/home/jajuan/Codes/Project3/world_type.h
+string
+-
+
